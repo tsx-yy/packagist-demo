@@ -4,12 +4,53 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5c95dc5c6c7d3d8b8fc6d83b1216529c",
-    "packages": [],
+    "content-hash": "4526c6b42b1921060f731fe8c56634c3",
+    "packages": [
+        {
+            "name": "kelsee/blog",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kelsee12/kelsee.git",
+                "reference": "c52e617824ae9d119170c88eb496d24030412858"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kelsee12/kelsee/zipball/c52e617824ae9d119170c88eb496d24030412858",
+                "reference": "c52e617824ae9d119170c88eb496d24030412858",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "1",
+            "autoload": {
+                "psr-4": {
+                    "kelsee\\": "src/kelsee"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "开浩通",
+                    "email": "kai666123789@163.com"
+                }
+            ],
+            "description": "kelsee shop",
+            "support": {
+                "issues": "https://github.com/kelsee12/kelsee/issues",
+                "source": "https://github.com/kelsee12/kelsee/tree/main"
+            },
+            "time": "2022-04-15T06:59:54+00:00"
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "kelsee/blog": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
