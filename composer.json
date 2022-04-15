@@ -1,0 +1,21 @@
+{
+    "name": "tsx/packagist-demo",
+    "description": "demo",
+    "type": "1",
+    "require": {
+        "php": ">=7.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tsx",
+            "email": "2095684802@qq.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
